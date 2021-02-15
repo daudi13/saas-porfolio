@@ -9,3 +9,11 @@ $secondary-clr: #ff652f;
     margin: 0;
     box-sizing: border-box;
 }
+
+@mixin trans-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+@function text-clr($color) {
+    @if (ligten($color)) > 
+}

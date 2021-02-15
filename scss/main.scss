@@ -38,6 +38,7 @@ main {
 
     a {
         padding: 0.4rem;
+        @include trans-ease;
 
         &:hover {
             color: $secondary-clr ;
