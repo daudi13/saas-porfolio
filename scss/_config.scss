@@ -14,6 +14,10 @@ $secondary-clr: #ff652f;
     transition: all 0.5s ease-in-out;
 }
 
-@function text-clr($color) {
-    @if (ligten($color)) > 
-}
+// @function text-clr($color) {
+//     @if (ligten($color) > 40%) {
+//         @return #000;
+//     } else {
+//         @return #fff;
+//     }
+// }
