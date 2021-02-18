@@ -23,7 +23,7 @@
             content: '';
             position: absolute;
             top: -8px;
-            width: 20px;
+            width: 28px;
             height: 3px;
             background: white;
             @include trans-ease
@@ -33,7 +33,7 @@
             content: '';
             position: absolute;
             bottom: -8px;
-            width: 28px;
+            width: 20px;
             height: 3px;
             background: #fff;
             @include trans-ease
@@ -46,6 +46,20 @@
             &::before {
                 transform: rotate(45deg) translate(5px, 8px);
             }
+
+            &::after {
+                width: 28px;
+                transform: rotate(-45deg) translate(5px, -8px);
+            }
         }
     }
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    opacity: 0.98;
+    visibility: hidden;
 }
